@@ -128,7 +128,7 @@ def analyze(p_report):
         f.write('Analysis for %s\n'%p_report)
     top_pdb2field(pdbs, pdb2authors, 15, 'citation authors', p_file=p_file)
     top_pdb2field(pdbs, pdb2depdate, 10, 'deposit dates', p_file=p_file)
-    top_pdb2field(pdbs, pdb2pubyear, 10, 'publication years', p_file=p_file)
+    top_pdb2field(pdbs, pdb2pubyear, 63, 'publication years', p_file=p_file)
     top_pdb2field(pdbs, pdb2journal, 15, 'journals', p_file=p_file)
     top_pdb2field(pdbs, pdb2genes, 15, 'genes', p_file=p_file)
     top_pdb2field(pdbs, pdb2keywords, 15, 'keywords', p_file=p_file)
