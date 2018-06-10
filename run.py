@@ -26,4 +26,4 @@ import src.analyze_pdb as analyze
 if __name__ == '__main__':
     p_report = analyze.pull_pdb_report()
     _ = analyze.analyze(p_report)
-    # _ = analyze.remove_pdb_report(p_report)
+    _ = analyze.remove_pdb_report(p_report)
