@@ -1,6 +1,7 @@
 # PDB Data Analysis
 Really just codes I used to check the current status of Protein Data Bank (PDB).
 You are welcome to re-run my analysis for your own curiosity.
+** Please check the <b>Caution</b> section at the bottom first! **
 
 ## To re-run the analysis
 ** NOTE: This is written in Python 3.6 **
@@ -211,3 +212,7 @@ remove_pdb_report(): Removed PDB report at tmp/report_2018-06-09.csv
 ```
 ## Error
 If you get a Gateway timed-out error, just try re-running it
+
+## Caution
+1. Author name analysis is NOT reliable! This is because it is purely based on the abbreviated names on PDB. The chances of multiple people having the same abbreviated name is very high!
+2. String comparison was used to perform all of the analyses, so, just as with author names, consider the possibilities of genes with same abbreviations or keywords of the same item that are written differently
